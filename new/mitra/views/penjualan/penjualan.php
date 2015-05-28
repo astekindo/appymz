@@ -1,0 +1,46 @@
+<?php
+if (!defined('BASEPATH'))
+exit('No direct script access allowed');
+
+    $this->load->view('penjualan/penjualan_distribusi');
+    $this->load->view('penjualan/penjualan_pengadaan_barang');
+    $this->load->view('penjualan/penjualan_project');
+    $this->load->view('penjualan/penjualan_do');
+    $this->load->view('penjualan/penjualan_sj');
+    $this->load->view('penjualan/sj_kembali');
+    $this->load->view('penjualan/monitoring_sj_kembali');
+    $this->load->view('penjualan/pelunasan_piutang');
+    $this->load->view('penjualan/retur_penjualan');
+    $this->load->view('penjualan/monitoring_surat_jalan');
+    $this->load->view('penjualan/view_retur_jual');
+    $this->load->view('penjualan/cetak_retur_jual');
+    $this->load->view('penjualan/cetak_pelunasan_piutang');
+    $this->load->view('penjualan/view_pembayaran_piutang');
+    $this->load->view('penjualan/penjualan_do_distribusi');
+    $this->load->view('penjualan/penjualan_sj_distribusi');
+    $this->load->view('penjualan/faktur_penjualan');
+    $this->load->view('penjualan/faktur_pajak');
+    $this->load->view('penjualan/pembayaran_uang_muka');
+    $this->load->view('penjualan/pembayaran_piutang_distribusi');
+    $this->load->view('penjualan/monitoring_piutang');
+    $this->load->view('penjualan/monitoring_piutang_distribusi');
+    $this->load->view('penjualan/faktur_pajak_uang_muka');
+    $this->load->view('penjualan/bukti_serah_terima_tagihan');
+    $this->load->view('penjualan/outstanding_struk_bintang2');
+    $this->load->view('penjualan/input_jumlah_pengunjung');
+    $this->load->view('penjualan/retur_penjualan_non_struk');
+    $this->load->view('penjualan/create_kwitansi_penjualan');
+    $this->load->view('penjualan/cetak_kwitansi_penjualan');
+    $this->load->view('penjualan/cetak_pembayaran_piutang_distribusi');
+    $this->load->view('penjualan/cetak_faktur_penjualan');
+    $this->load->view('penjualan/cetak_faktur_pajak');
+    $this->load->view('penjualan/monitoring_penjualan');
+    $this->load->view('penjualan/cetak_penjualan_distribusi');
+    $this->load->view('penjualan/cetak_delivery_order');
+    $this->load->view('penjualan/cetak_surat_jalan');
+    $this->load->view('penjualan/cetak_delivery_order_distribusi');
+    $this->load->view('penjualan/cetak_surat_jalan_distribusi');
+    $this->load->view('penjualan/monitoring_retur_jual');
+    $this->load->view('penjualan/tanda_terima_faktur');
+    $this->load->view('penjualan/close_bstt');
+?>

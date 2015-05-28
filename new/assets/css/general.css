@@ -1,0 +1,146 @@
+/*
+	Basic HTML
+	Text Color : #000000
+	Orange / Link Color Active / Link Color Hover : #f79420
+	Red : #a41816
+	Sand color : #f4f1ee
+----------------------------------------------------------------------------------------------------*/
+/* 
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body div.clear,
+html body span.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after {
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+img a {border:0;}
+
+body {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px;
+	margin: 0;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 900px;
+	background-color:#FFFFFF;
+}
+
+.right_col, .left_col {	
+	display: inline;
+	float: left;
+}
+
+
+.head {
+	clear: both;
+	overflow: hidden;
+	width: 900px;
+	padding: 30px 0px 10px 0px;
+}
+.head-col-l {
+	float: left;
+	width: 300px;
+}
+.head-col-r {
+	float: right;
+	width: 500px;
+	padding-top:42px;
+	padding-right: 3px;
+} 
+
+.head-col-r .version{
+	text-align:right;
+	font-size:20px;
+	color:#0090ff;
+}
+
+
+.head-col-l .head-row-top {
+	clear: both;
+	overflow: hidden;
+}
+.head-col-l .head-row-bottom {
+	clear: both;
+	overflow: hidden;
+}
+
+.logo-col {
+	float: left;
+	width: 170px;
+}
+
+.main{
+	clear: both;
+	height: 273px;
+    margin: 0;
+   	background: url(../img/bk_indesso.gif) repeat-x scroll 0 0;
+}
+.maincontainer {
+	height: 273px;
+    margin: 0;
+   	background: url(../img/bk_indesso.gif) repeat-x scroll 0 0;	
+}
+.main #left_main{
+	height:273px;
+	width:588px;
+	float:left;
+}
+
+.main .right_maincontainer{
+	float:left;
+	height:273px;
+	width:312px;
+	padding-top:40px;
+}
+.main #right_main{
+	width:300px;
+	float:right;
+}
+
+
+.footer {
+	clear: both;
+	overflow: hidden;
+	text-align:center;
+	padding-top:20px;
+}
+

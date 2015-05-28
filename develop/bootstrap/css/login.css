@@ -1,0 +1,124 @@
+* {
+		margin: 0px;
+		padding: 0px;outline: none;
+	}
+
+	body {
+		background: #C2C2C2;
+	}
+
+	form {
+		border: 1px solid #fff;
+		width: 250px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		margin:50px auto;
+		padding: 20px;
+		-moz-box-shadow:0px -5px 300px #FFFFFF;
+		-webkit-box-shadow:0px -5px 300px #FFFFFF;
+	}
+
+	label {
+		font-size: 12px;
+		font-family: arial, sans-serif;
+		list-style-type: none;
+		margin-bottom: 10px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	input {
+	  -webkit-transition-property: -webkit-box-shadow, background;
+	  -webkit-transition-duration: 0.25s;
+	  	padding: 6px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-top: 1px solid #FFFFFF;
+		-moz-box-shadow: 0px 0px 2px #000;
+		-webkit-box-shadow: 0px 0px 2px #000;
+		margin-bottom: 10px;
+		width: 230px;
+	}
+
+	input.submit {
+	  -webkit-transition-property: -webkit-box-shadow, background;
+	  -webkit-transition-duration: 0.25s;
+		width: 100px;
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7ACAFF), to(#3DB1FF));	
+		background:  -moz-linear-gradient(19% 75% 90deg,#3DB1FF, #7ACAFF);
+		color: #000;
+		text-transform: uppercase;
+		border-top: 1px solid #FFFFFF;
+		margin-top: 10px;
+	}
+
+	input.submit:hover {
+		-webkit-box-shadow: 0px 0px 2px #000;
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#FFF));
+		background:  -moz-linear-gradient(19% 75% 90deg,#3DB1FF, #7ACAFF);
+	} 
+
+	input.submit:active {
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3DB1FF), to(#7ACAFF));
+		background:  -moz-linear-gradient(19% 75% 90deg,#7ACAFF, #3DB1FF);
+	}
+
+	input:hover {
+		-webkit-box-shadow: 0px 0px 4px #000;
+		background: #E6FFCC;
+	}
+/*
+	.lings { 
+		color: #003399;
+		text-decoration: none;
+	}
+	.lings:hover {
+		color: #FF8B22; 
+		text-decoration: none;
+	}
+*/
+	#lingNew {
+		margin-left:160px;
+		margin-top: -20px;	
+		color: #003399;
+		cursor:pointer;	
+		font-size: 12px; 
+		font-family: Arial, Helvetica, sans-serif;				
+	}
+	
+	#lingLogin {
+		margin-left:160px;
+		margin-top: -20px;	
+		color: #003399;
+		cursor:pointer;	
+		font-size: 12px; 
+		font-family: Arial, Helvetica, sans-serif;				
+	}
+	.error{
+		color: red;
+		font-weight: bold;	
+	}
+/*
+*					{ margin: 0; padding: 0; }
+.body-login				{ font-family: Georgia, serif; background: url(images/login-page-bg.jpg) top center no-repeat #c4c4c4; color: #3a3a3a;  }
+
+.clear				{ clear: both; }
+
+.form-login				{ width: 406px; margin: 170px auto 0; }
+
+.legend-login				{ display: none; }
+
+.fieldset-login			{ border: 0; }
+
+.label-login				{ width: 115px; text-align: right; float: left; margin: 0 10px 0 0; padding: 9px 0 0 0; font-size: 16px; }
+
+.input-login				{ width: 220px; display: block; padding: 4px; margin: 0 0 10px 0; font-size: 18px;
+					  color: #3a3a3a; font-family: Georgia, serif;}
+					  
+.button-login				{ background: url(images/button-bg.png) repeat-x top center; border: 1px solid #999;
+					  -moz-border-radius: 5px; padding: 5px; color: black; font-weight: bold;
+					  -webkit-border-radius: 5px; font-size: 13px;  width: 70px; }
+.button-login:hover		{ background: white; color: black; }
+*/

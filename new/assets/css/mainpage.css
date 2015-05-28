@@ -1,0 +1,306 @@
+/*
+	MAINPAGE CSS
+
+----------------------------------------------------------------------------------------------------*/
+
+/* carousel */
+.bannercarousel {height:222px; width:630px;}
+.carousel_nav {background-color: #FFFFFF/*#e3d7c2*/; color:#a08f78; padding:3px; height:15px; width:624px;}
+.carousel_nav .leftbtn {float:left; width:190px;}
+.carousel_nav .rightbtn {float:right; width:240px; text-align:right;}
+.box_list_banner a {
+height:200px;
+width:630px;
+}
+
+
+.carousel_nav  #cycle_next {text-align:right;}
+.carousel_nav a#cycle_prev, .carousel_nav a#cycle_next {color:#b1a18b; text-decoration:none; font-weight:bold; padding:0 2px;}
+.carousel_nav a:hover#cycle_prev, .carousel_nav a:hover#cycle_next {color:#fd7310; text-decoration:none; font-weight:bold; padding:0 2px;}
+.carousel_nav #cycle_index {text-align:center;}
+.carousel_nav #cycle_index a {color:#b1a18b; text-decoration:none; padding:0 2px; font-weight:bold;}
+.carousel_nav #cycle_index a:hover, #cycle_index a.activeSlide {color:#fd7310; text-decoration:none; font-weight:bold;}
+
+/* boxes */
+.fullbox {width:630px; margin:5px 0;}
+.halfbox {width:312px; margin:0 0 10px; display:inline; float:left;}
+.rightcols {width:338px; margin:0 0 10px; border-bottom:1px solid #c01f25/* border:1px solid #c01f25; background-color:#FFFFFF*/}
+.whatsnewbox {width:278px; margin:0 0 10px; background-color:#ffe5c7; border:1px solid #fc7b13;}
+.caradl_flash {width:278px; margin:0 0 10px; /* background-color:#ffe5c7; border:1px solid #fc7b13;*/}
+.top10box {width:278px; background:#ff9a2b url(../images/bg/bg_top10.gif) repeat-x left top; border:1px solid #fc8a0d; margin-bottom:10px;}
+.fullbox .title, .halfbox .title, .rightcols .title {background:url(../images/bg/fullbox-title.gif) repeat-x; height:26px; position:relative; padding-left:10px;}
+.whatsnewbox .title, .caradl_flash .title, .rightcols .title {background:url(../images/bg/bg_titlebarnew.gif) no-repeat; height:33px; position:relative; padding-left:10px;}
+.top10box .title {padding:10px;}
+.fullbox .title h1.gotw {text-indent:-9999px; background:url(../images/title/title_gamesoftheweek.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.fullbox .title h1.ringtones {text-indent:-9999px; background:url(../images/title/title_ringtones.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.fullbox .title h1.rbt {text-indent:-9999px; background:url(../images/title/title_rbt.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.halfbox .title h1.theme {text-indent:-9999px; background:url(../images/title/title_theme.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.halfbox .title h1.wallpaper {text-indent:-9999px; background:url(../images/title/title_wallp.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.halfbox .title h1.screensvr {text-indent:-9999px; background:url(../images/title/title_ss.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.halfbox .title h1.apps {text-indent:-9999px; background:url(../images/title/title_app.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.rightcols .title h1.quiz, .fullbox .title h1.quiz {text-indent:-9999px; background:url(../images/title/title_program.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.rightcols .title h1.quiz {padding-top:15px;}
+.rightcols .title h1.program, .fullbox .title h1.program {text-indent:-9999px; background:url(../images/title/title_program.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.rightcols .title h1.program {padding-top:15px;}
+.caradl_flash .title h1.caradl {text-indent:-9999px; background:url(../images/title/title_caradonlod.gif) no-repeat; background-position:left center; font-size:10px; padding-top:15px;}
+.whatsnewbox .title h1.whatsnew {text-indent:-9999px; background:url(../images/title/title_news.gif) no-repeat; background-position:left center; font-size:10px; padding-top:15px;}
+
+.top10box .title h1.rbttop10 {text-indent:-9999px; background:url(../images/title/title_rbttop10.gif) no-repeat; background-position:left center; font-size:10px; padding-top:10px;}
+.fullbox .title .more, .halfbox .title .more, .caradl_flash .more {position:absolute; right:10px; top:6px;}
+.whatsnewbox .more, .rightcols .more {position:absolute; right:10px; top:9px;}
+.title .nav {position:absolute; right:10px; top:5px;}
+
+/* kotak 100x100 */
+.kotakwrapper {background-color:#FFFFFF; border:1px solid #fc7b13; border-top:none; padding:5px 2px 5px 3px; width:305px;}
+.kotakgambar {width:85px; float:left; padding:7px;}
+.kotakgambar p img {width:85px; height:85px;}
+.kotakgambar p {display:block; padding:0; margin:0; background-color:#fd9d0b; text-align:center; color:#FFFFFF; font-size:11px; font-weight:bold;}
+.kotakgambar p a {color:#FFF; text-decoration:none;}
+.kotakgambar p a:hover {color:#ffe7c2; text-decoration:none;}
+
+
+/* game of the week */
+.gotw_container {background-color:#FFFFFF; border:1px solid #fc7b13; border-top:none; overflow:hidden; position:relative;width:626px; padding-left:2px;}
+.gotw_box {width:121px; height:220px; float:left; position:relative; padding:6px 2px;}
+.gotw_box .img_bg {position:relative; background:url(../images/bg/gotw_gamebg.gif) no-repeat; width:121px; height:120px;}
+.gotw_box .img_bg .img_gotw {position:absolute; width:110px; height:110px; top:2px; left:4px;}
+.gotw_box .gamedetail {line-height:1.3em; font-size:11px; width:115px; margin:0 auto;}
+.dl_gotw {position:absolute; bottom:5px; left:22px;}
+.dl_gotw a {display:block; text-indent:-9999px; background:url(../images/btn_dowloadgame.gif) no-repeat top left; height:22px; width:74px}
+.dl_gotw a:hover {background-position:left bottom;}
+
+/* themes */
+.themebox {margin-right:5px;}
+
+
+/* tab ringtones */
+.nav ul {
+	list-style:none;
+	margin:0; padding:0;
+}
+.nav ul li {
+	padding:0;
+	margin-left:0;
+	float:left;
+	display:block;
+}
+.nav ul li a {
+	display:block;
+	overflow:hidden;
+	width:75px;
+	height:21px;
+	text-indent:-9999px;
+}
+.nav ul li.baru {margin-right:5px;}
+.nav ul li.baru a {
+	background:url(../images/btn_terbaru.gif) no-repeat;
+}
+.nav ul li.laris a {
+	background:url(../images/btn_terlaris.gif) no-repeat;
+}
+
+.nav ul li a:hover, .nav ul li a.selected {
+	background-position:0 -21px;
+}
+
+#boxkesatu, #boxkedua  {
+	background-color:#ffe5c7;
+	border:1px solid #fc7b13;
+	border-top:none;
+	padding:10px 5px 0px;
+	width:618px;
+}
+.waste {
+min-height: 1000px;
+}
+
+/* box ringbacktone */
+.boxwrap {float:left; width:300px; display:inline; padding:0 4px 10px; position:relative}
+.boxwrap div {display:inline; width:70px; text-align:left;}
+.boxwrap div img {width:65px; height:65px; }
+.boxwrap p {width:195px; display:inline; text-align:left; position:absolute; top:0; left:75px;}
+.boxwrap span.buttons {position:absolute; top:0; right:5px;}
+.boxwrap span.buttons img {padding-bottom:2px;}
+.orange {color:#f79420;}
+
+
+/* ringback tones rop 10 */
+.rbttop10full {
+	background-color:#ffe5c7;
+	border:1px solid #fc7b13;
+	border-top:none;
+	padding:10px 0 0px 9px;
+	width:619px;
+}
+.chartbox {width:300px; float:left; padding-bottom:10px;}
+.chart_row {padding:2px 0;}
+.chart_row a {color:#000; text-decoration:none;}
+.chart_row a:hover {color:#000; text-decoration:underline;}
+.chart_cols1 {float:left; width:25px; padding:2px 0 2px 2px;}
+.chart_cols2 {float:left; width:218px; padding:2px 0;}
+.chart_cols3 {float:left; width:52px; text-align:center; padding:2px 0;}
+.rowtitle {background-color:#ffcc66;}
+.space {width:10px; float:left; height:100%; padding-left:5px;}
+
+
+/* quiz list */
+.quizlist  {
+	/*background-color:#fff;
+	border:1px solid #fc7b13; */
+	border-bottom:1px solid #c01f25;
+	border-top:none;
+	margin-top:0;
+}
+
+
+.quizimagewrapper {float:left; display:inline; margin-right:5px;}
+/*.quizimagewrapper img {width:120px; height:60px;}*/
+.quizdetail {float:left; display:inline; width:190px;}
+
+/* paging quiz list */
+.paging {border-top:1px dashed #fc8a0d; margin:10px 10px 8px 8px;}
+.paging p {padding-top:5px; font-weight:bold; vertical-align:top; }
+.paging table a {color:#f97110; text-decoration:none;}
+.paging table a:hover {color:#ff9d57; text-decoration:none;}
+.cellPaging {font-size:11px;}
+#first {
+	background:transparent url(../images/bt_first.gif) no-repeat scroll left top;
+	display:block;
+	height:15px;
+	overflow:hidden;
+	text-indent:2000px;
+	width:17px;
+}
+
+#prev {
+	background:transparent url(../images/bt_prev.gif) no-repeat scroll left top;
+	display:block;
+	height:15px;
+	overflow:hidden;
+	text-indent:2000px;
+	width:17px;
+}
+.linkThumb {
+	color:#333333;
+}
+#next {
+	background:transparent url(../images/bt_next.gif) no-repeat scroll left top;
+	display:block;
+	height:15px;
+	overflow:hidden;
+	text-indent:2000px;
+	width:17px;
+}
+#last {
+	background:transparent url(../images/bt_last.gif) no-repeat scroll left top;
+	display:block;
+	height:15px;
+	overflow:hidden;
+	text-indent:2000px;
+	width:17px;
+}
+
+#first:hover			{background-position: bottom left;}
+#last:hover				{background-position: bottom left;}
+#prev:hover				{background-position: bottom left;}
+#next:hover				{background-position: bottom left;}
+
+/*----------------------------------------------------------------------------------------------------
+RIGHT COLUMN
+----------------------------------------------------------------------------------------------------*/
+/* quiz */
+.quizwrapper { background-color:#FFFFFF; border-bottom:1px solid #c01f25; border-left:1px solid #c01f25; border-right:1px solid #c01f25; padding:10px;}
+.quizdetail-long {float:left; display:inline; width:400px;}
+.quizdetail-long a {color:#FF6600; text-decoration:none; font-weight:bold;}
+.quizdetail-long a:hover {color:#FF6600; text-decoration:underline; font-weight:bold;}
+.lastquiz {border-bottom:none;}
+
+/* top 10 */
+.oddnumber {background-color:#ffd094;}
+ol.top10 li {margin:0;  padding:5px 15px; list-style-position:inside;}
+ol.top10 li a {color:#000; text-decoration:none; padding-left:10px;}
+ol.top10 li a:hover {color:#000; text-decoration:underline;}
+
+/* Whats New */
+.newslist {padding:5px; border-bottom:1px solid #fc7b13;}
+.lastnews {border-bottom:none;}
+.newslist h5 {font-size:16px; color:#9e0909; margin:0; padding:0; text-transform:uppercase;}
+.newslist h5 a {color:#9e0909; text-decoration:none;}
+.newslist h5 a:hover {color:#e70000; text-decoration:none;}
+.newslist p {line-height:normal;}
+.newslist p a {color:#ff6700; text-decoration:none;}
+.newslist p a:hover {color:#ff6700; text-decoration:underline;}
+
+/* Search */
+.boxmencari {
+	text-align:center;
+	padding:5px 0;
+	background-color: #FFFFFF/*#ec6417*/;
+	border-top: 1px solid #C01F25;
+	border-right: 1px solid #C01F25;
+	border-left: 1px solid #C01F25;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.inputmencari {
+	background-color: #E3E3DF;
+	border-color:#474747 #CCCCCC #CCCCCC #474747;
+	border-style:solid;
+	border-width:1px;
+	height:15px;
+	padding:3px;
+	width:170px;
+}
+
+.buttonmencari {
+	background:url(../images/btn_mencari.gif) no-repeat left top;
+	border:0;
+	width:75px;
+	height:23px;
+}
+
+/* cara download */
+.caradl_flash {
+	text-align:center;
+	width:338px;
+/*	background-color:#ffffff;
+	border-bottom:1px solid #c01f25; border-left:1px solid #c01f25; border-right:1px solid #c01f25;
+*/	
+}
+.flashbanner1 {padding:10px 0; background-color:#ffffff; border-left:1px solid #c01f25; border-right:1px solid #c01f25;}
+.panduan_setting {background-color:#ffffff; border-left:1px solid #c01f25; border-right:1px solid #c01f25; border-bottom:1px solid #c01f25;}
+.panduan_setting h4 {margin:0 5px; padding-left:5px; font-size:14px; text-transform:uppercase; text-align:left; border-bottom:1px dashed #fc7b13; color:#c01f25}
+.panduan_setting ul {
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.panduan_setting ul li {
+	list-style:disc;
+	margin-left:22px;
+}
+
+.panduan_setting ul li a {color:#dc4c1c; text-decoration:none;}
+.panduan_setting ul li a:hover {color:#dc4c1c; text-decoration:underline;}
+
+.bannerkanan275 {
+	width:280px;
+	text-align:center;
+	margin:10px 0;
+}
+
+.bannerkanan275 img {width:275px; height:170px;}
+
+.bannerkanan728 {
+	width:728px;
+	text-align:center;
+	margin: 10px 0;
+}
+
+.bannerkanan728 img {width:728px; height:90px;}
+
+.buttonsocmedia {
+	width:280px;
+	text-align:center;
+	margin:10px 0;
+}

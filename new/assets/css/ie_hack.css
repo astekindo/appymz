@@ -1,0 +1,17 @@
+/*
+	FOR INTERNET EXPLORER ONLY
+----------------------------------------------------------------------------------------------------*/
+/*
+----------------------------------------------------------------------------------------------------*/
+
+.halfbox {margin:0; }
+.themebox {margin-right:4px;}
+.rightcols {margin-bottom:10px}
+.inputsearchnya {
+	background:url(../images/login-password.png) no-repeat;
+	width:141px;
+    height:25px;
+    border:none;
+    padding:4px 0 0 5px;
+    float:left;}
+

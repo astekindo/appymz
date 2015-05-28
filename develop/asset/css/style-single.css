@@ -1,0 +1,73 @@
+
+	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		margin:0px auto;
+		font-size:12px;
+		font-family:Arial;
+		color: #4F5155;
+		margin:40px;
+		background-image:url(../images/bg-diagonal.png);
+	}
+	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+		background-color:#FFFFFF;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		font-size: 16px;
+		font-weight: bold;
+		margin: 0 0 5px 0;
+		padding: 8px 15px 5px 40px;
+		border-bottom:1px solid #ccc;
+		background-image:url(../images/icn_edit_article.png);
+		background-position:15px;
+		background-repeat:no-repeat;
+	}
+
+	#body{
+		margin: 0 15px 0 15px;
+	}
+
+	.input-read-only {
+		background-image:url(../images/bg-menu.jpg);
+		background-position:top;
+		background-repeat:repeat-x;
+		border: 1px solid #D0D0D0;
+		padding: 8px;
+		background-color:#EEEEEE;
+		outline:none;
+		resize:none;
+		font-family:Arial;
+	}
+
+	.btn-kirim-login {
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		padding: 9px 10px 9px 10px;
+		background-image:url(../images/bg-menu.gif);
+		background-repeat:repeat-x;
+		background-position:center;
+		color:#FFFFFF;
+		cursor:pointer; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px;
+	}
+	.cleaner_h0 { clear: both; width:100%; height: 0px; }
+	.cleaner_h5 { clear: both; width:100%; height: 5px; }
+	.cleaner_h3 { clear: both; width:100%; height: 3px; }
+	.cleaner_h10 { clear: both; width:100%; height: 10px; }
+	.cleaner_h20 { clear: both; width:100%; height: 20px; }
+	.cleaner_h30 { clear: both; width:100%; height: 30px; }
+	.cleaner_h40 { clear: both; width:100%; height: 40px; }
+	.cleaner_h50 { clear: both; width:100%; height: 50px; }
+	.cleaner_h60 { clear: both; width:100%; height: 60px; }
